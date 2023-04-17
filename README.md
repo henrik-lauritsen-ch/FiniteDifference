@@ -1,4 +1,7 @@
 # FiniteDifference
-Library with functionality for solving PDEs applied in derivatives pricing
+Library with functionality for solving PDEs applied in derivatives pricing: 
 
-... Projects is expected to be released in June
+- Crank-Nicolson 
+- ADI schemes
+
+... Projects in progress!!
