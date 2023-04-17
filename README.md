@@ -2,6 +2,6 @@
 Library with functionality for solving PDEs applied in derivatives pricing: 
 
 - Crank-Nicolson 
-- ADI schemes
+- ADI
 
 ... Projects in progress!!
