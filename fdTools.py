@@ -25,8 +25,7 @@ def Thomas(a, b, c, r, M):
         r[i] = r[i] - a[i-1]*r[i-1]       
                 
         c[i] = c[i]/b[i]
-        r[i] = float(r[i]/b[i])
-        b[i] = 1
+        r[i] = float(r[i]/b[i])        
            
     b[M-1] = b[M-1] - a[M-2]*c[M-2]
     r[M-1] = r[M-1] - a[M-2]*r[M-2]
@@ -51,7 +50,7 @@ class TestfdTools(unittest.TestCase):
         a = np.array([2.0, 4.0])
         b = np.array([1.0, 4.0, 1.0])
         c = np.array([1.0, -1.0])
-        r_ = thomas(a, b, c, r, 3)
+        r_ = Thomas(a, b, c, r, 3)
         self.assertEqual((r_ == np.array([0.5, -3.0/2.0, -1.0])).all(), True)
 
     
