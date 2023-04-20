@@ -8,8 +8,8 @@ import unittest
 //		matrix, Q[a,b,c].
 //		Righthand side r[M]. Solution to Q*a = r  =>  a = Q^-1 * r
 //
-//      NB!: a, b and c needs to be input as decimal numbers. If a element is 2 and not 2.0 
-//           Python will interpret the numberto be an integer. 1/2 = 0 instead of 1.0/2.0 = 0.5
+//      NB!: a, b and c need to be input as decimal numbers. If a element is 2 and not 2.0 
+//           Python will interpret the number to be an integer. 1/2 = 0 instead of 1.0/2.0 = 0.5
 // 
 //      Numerical Partial Differential Equations, J.W. Thomas, Springer
 //	-----------------------------------	  ----------------   ----------------------------------- //
