@@ -14,7 +14,7 @@ import unittest
 //      Numerical Partial Differential Equations, J.W. Thomas, Springer
 //	-----------------------------------	  ----------------   ----------------------------------- //
 """
-def thomas(a, b, c, r, M):
+def Thomas(a, b, c, r, M):
 
     c[0] = c[0]/b[0]
     r[0] = r[0]/b[0]
