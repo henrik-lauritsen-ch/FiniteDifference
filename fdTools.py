@@ -12,7 +12,7 @@ import unittest
 //           Python will interpret the number to be an integer. 1/2 = 0 instead of 1.0/2.0 = 0.5
 // 
 //      Numerical Partial Differential Equations, J.W. Thomas, Springer-Verlag
-//	-----------------------------------	  ----------------   ----------------------------------- //
+//	-----------------------------------   ----------------   ----------------------------------- //
 """
 def Thomas(a, b, c, r, M):
 
